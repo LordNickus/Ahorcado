@@ -1,0 +1,152 @@
+/* Index */
+body{
+    position: relative;
+    background: #F3F5FC;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    position: relative;
+    background: #c1c6d8;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 40px;
+    left: 40px;
+    top: 40px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+    height: 67px;
+    top: 284px;
+
+}
+
+.iniciar{
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 94px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.iniciar:hover{
+    background: #416fa7;
+
+}
+.iniciar:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.agregar{
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.agregar:hover{
+    background: #afb6be;
+
+}
+.agregar:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);}
+
+
+footer{
+    height:50px;
+    line-height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    padding: 1em 0;
+    margin-top: auto;
+    left:0;
+    width:100%;
+
+}
+ .copyright{
+    color: white;
+    font-size: 18px;
+}
+
+ /* Juego */
+
+.central{
+    display: block;
+    width: auto;
+    height: 540px;
+    margin: 24px;
+    padding: 50px;
+ }
+.areaJuego{
+    display: flex;
+    box-sizing: border-box;
+    height: 90%;
+    width: 90%;
+    margin: 12px 24px 12px 36px;
+    border:5px solid #0A3871;
+    background: #90da9c;
+    border-radius: 55px 0 55px 0;
+}
+.areaLetrasUsadas{
+    display: flex;
+    box-sizing: border-box;
+    height: 10%;
+    width: 90%;
+    margin: 12px 24px 12px 36px;
+    border:5px #0A3871;
+    background: #74a1d8;
+}
+.botones2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+    height: 67px;
+    margin: 48px auto;
+ }
+
+
+ /* Palabras */
+
+ 
