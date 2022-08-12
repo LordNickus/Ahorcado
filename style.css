@@ -33,7 +33,7 @@ header{
 
 }
 
-.iniciar{
+.iniciar, .nuevoJuego, .guardar{
     padding: 24px;
     gap: 8px;
     width: 328px;
@@ -53,16 +53,16 @@ header{
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
-.iniciar:hover{
+.iniciar:hover, .nuevoJuego:hover, .guardar:hover{
     background: #416fa7;
 
 }
-.iniciar:active{
+.iniciar:active, .nuevoJuego:active, .guardar:active{
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.agregar{
+.agregar, .desistir, .cancelar{
     padding: 24px;
     gap: 8px;
     width: 328px;
@@ -80,11 +80,11 @@ header{
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
-.agregar:hover{
+.agregar:hover, .desistir:hover, .cancelar:hover{
     background: #afb6be;
 
 }
-.agregar:active{
+.agregar:active, .desistir:active, .cancelar:active{
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);}
 
@@ -95,7 +95,7 @@ footer{
     background:black;
     color:white;
     text-align:center;
-    padding: 1em 0;
+    position: relative;
     margin-top: auto;
     left:0;
     width:100%;
@@ -111,26 +111,34 @@ footer{
 .central{
     display: block;
     width: auto;
-    height: 540px;
-    margin: 24px;
-    padding: 50px;
+    height: 360px;
+    margin: 12px 0 0 0;
+    padding: 6px;
  }
 .areaJuego{
     display: flex;
+    justify-content: center;
     box-sizing: border-box;
-    height: 90%;
+    height: 70%;
     width: 90%;
-    margin: 12px 24px 12px 36px;
+    margin: 12px 0 12px 36px;
     border:5px solid #0A3871;
     background: #90da9c;
     border-radius: 55px 0 55px 0;
+}
+.ahorcado{
+    display: flex;
+    background: #146423;
+    border-radius: 55px 0 55px 0;
+    align-items:center;
+    padding: 12px;
 }
 .areaLetrasUsadas{
     display: flex;
     box-sizing: border-box;
     height: 10%;
     width: 90%;
-    margin: 12px 24px 12px 36px;
+    margin: 12px 24px 0 36px;
     border:5px #0A3871;
     background: #74a1d8;
 }
@@ -143,7 +151,7 @@ footer{
     gap: 24px;
     position: relative;
     height: 67px;
-    margin: 48px auto;
+    margin: 0 0 24px 0;
  }
 
 
