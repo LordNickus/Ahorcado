@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="reset.css"/>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="imagenes/Logo.png">
     </head>
     
@@ -19,12 +22,26 @@
         <main>
             <div class="central">
                 <section class="areaJuego">
+                    <div class="ganador">
+                        <p>MUY BIEN!! GANASTEEE!!</p>
+                    </div>
+                    <div class="perdedor">
+                        <p>HORRIBLE COMO PERDISTEEEE!!</p>
+                    </div>
                     <canvas class="ahorcado" width="480" height="250">
-
+                        
                     </canvas>
+                    
                 </section>
+                <div class="palabraOculta">
+                    <textarea  id="input" name="palabraOculta" cols="33" rows="1" placeholder="PALABRA OCULTA!" readonly></textarea>
+                </div>
                 <section class="areaLetrasUsadas">
-
+                
+                    <button  class="nuevoJuego" id="verificar">Adivina letras:</button>
+                    <input type="text" class="letrasUsadas" id="letrasUsadas" autofocus maxlength="1" pattern="[A-Za-z]+" title="only letters"/>
+                    <textarea id="letrasYaUsadas" name="letrasVistas" cols="33" rows="1" readonly></textarea>
+              
                 </section>  
             </div>
             <section class="botones2">
